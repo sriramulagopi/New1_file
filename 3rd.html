@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        caption{
+            color: white;
+            text-shadow: 0px 0px 5px orange;
+            font-size: 35px;
+        }
+        table,tr,td,th{
+            border: 2px solid blue;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        #g1{
+            color: red;
+            font-size: 25px;
+        }
+        #g2{
+            color: gray;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>Fruits</caption>
+        <tr>
+            <th>SNO</th>
+            <th>NAME OF THE FRUIT</th>
+            <th>QUANTITY</th>
+            <th>TOTAL-PRICE</th>          
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Apple</td>
+            <td>10</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Banana</td>
+            <td>12</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Oranges</td>
+            <td>10</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Kiwi</td>
+            <td>4</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td colspan="3" id="g1">Total-Bill</td>
+            <td id="g2">330</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <caption>Mobiles</caption>
+        <tr>
+            <th>SNO</th>
+            <th>NAME OF THE GADGET</th>
+            <th>QUANTITY</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Redmi</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Realme</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Samsung</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>OnePlus</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td colspan="2" id="g1">Total-Quantity</td>
+            <td id="g2">13</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <caption>Family-Details</caption>
+        <tr>
+            <th>Names</th>
+            <td>Veeraswami</td>
+            <td>chandrakala</td>
+            <td>Gopi</td>
+            <td>Kishore</td>
+        </tr>
+        <tr>
+            <th>Ages</th>
+            <td>50</td>
+            <td>45</td>
+            <td>23</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <th>Profession</th>
+            <td>Business-Man</td>
+            <td>Business-Man-2</td>
+            <td>House-Maker</td>
+            <td>Still-Strugling</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <caption>Example</caption>
+        <tr>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td colspan="2" rowspan="2">Center-Cell</td>
+            <td>abc</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td>abc</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <th colspan="6">Time Table</th>
+        </tr>
+        <tr>
+            <th rowspan="6">Hours</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wen</th>
+            <th>Thu</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+            <td>Computer</td>
+            <td>Maths</td>
+            <td>Computer</td>
+            <td>Maths</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <td>Computer</td>
+            <td>Maths</td>
+            <td>Computer</td>
+            <td>Maths</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <th colspan="5">LUNCH</th>
+        </tr>
+        <tr>
+            <td>Computers</td>
+            <td>Maths</td>
+            <td>Computers</td>
+            <td>Maths</td>
+            <td rowspan="2">Projects</td>
+        </tr>
+        <tr>
+            <td>Computers</td>
+            <td>Maths</td>
+            <td>Computers</td>
+            <td>Maths</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <hr>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="First_Name" id="name" required><br>
+        <label for="no">Phone-No:</label>
+        <input type="number" placeholder="xxx-xxx-xxxx" id="no" required><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" placeholder="DOB" id="dob" required><br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="something123@gmail.com" id="email" required><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="gender" name="gender">Male
+        <input type="radio" id="gender" name="gender">Female <br>
+        <label for="Btech">Graduation:</label><br>
+        <input type="checkbox" id="Btech" name="select-one">Btech <br>
+        <input type="checkbox" id="Degree" name="select-one">Degree <br>
+        <input type="checkbox" id="Pharmacy" name="select-one">Pharmacy <br>
+        <input type="checkbox" id="IT" name="select-one">Pharmacy <br>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Password" id="password" name="password" required><br>
+        <label for="color">Select-Color:</label>
+        <input type="color" required><br>
+        <label for="range">Skills-Range</label>
+        <input type="range" min="30" max="100" step="5" required><br>
+        <label for="file">Profile-Photo:</label>
+        <input type="file" id="file" name="Photo" required><br>
+        <label for="address">Address:</label>
+        <textarea name="Address" id="address" cols="20" rows="5"></textarea><br>
+        <label for="first">First-Preference:</label>
+        <select name="Place1" id="first"><br>
+            <option value="">Select</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Khammam">Khammam</option>
+            <option value="Warangal">Warangal</option>
+            <option value="Vijyawada">Vijyawada</option>
+        </select><br>
+        <label for="second">Second-Preference:</label>
+        <select name="Place2" id="second">
+            <option value="">Select</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Khammam">Khammam</option>
+            <option value="Warangal">Warangal</option>
+            <option value="Vijyawada">Vijyawada</option>
+        </select><br>
+        <label for="third">Third-Preference:</label>
+        <select name="Place3" id="third">
+            <option value="">Select</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Khammam">Khammam</option>
+            <option value="Warangal">Warangal</option>
+            <option value="Vijyawada">Vijyawada</option>
+        </select><br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
