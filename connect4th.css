@@ -66,6 +66,56 @@ span{
     background-color: yellow;
 } */
 
+/* Child Selector */
+#g1>p{
+    color: white;
+    background-color: blue;
+}
+/* GrandChild Selector */
+#g1>div>p{
+    color: red;
+    background-color: black;
+}
+/* Both Selectors */
+#g2 p{
+    color: brown;
+    background-color: aqua;
+}
+#g3{
+    background-color: black;
+    color: white;
+    padding: 7px 13px;
+    border-radius: 5px;
+    border: none;
+}
+#g3:hover{
+    background-color: green;
+}
+#g3:active{
+    background-color: yellow;
+}
+#g3:focus{
+    background-color: violet;
+}
+/* first-child
+   second-child
+   nth-child(odd,even)
+ */
+#g4>li:nth-child(even){
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
