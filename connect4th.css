@@ -97,10 +97,11 @@ span{
 #g3:focus{
     background-color: violet;
 }
-/* first-child
-   second-child
-   nth-child(odd,even)
- */
+/* 
+first-child
+second-child
+nth-child(odd,even)
+*/
 #g4>li:nth-child(even){
     color: red;
 }
