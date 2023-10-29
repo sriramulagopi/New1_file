@@ -1,0 +1,113 @@
+/* Text-Properties */
+
+/* Types of giving colors
+   1.Named colors
+   2.rgb(red,green,blue)
+   3.rgba(red,green,blue,blurness)
+   4.hsl()
+   5.Hexcode()
+ */
+/* #g1{
+    color: red;
+}
+#g2{
+    color: rgb(12 100 190);
+}
+#g3{
+    color: rgba(155, 8, 8, 0.566);
+}
+#g4{
+    color: hsl(0, 10%, 50%);
+}
+#g5{
+    color: #3FD9A4;
+} */
+
+
+/* Types of Text-align
+   1.center
+   2.left
+   3.right
+   4.justify
+ */
+/* #g6{
+    text-align: center;
+    color: red;
+
+}
+#g7{
+    text-align: right;
+    color: green;
+}
+#g8{
+    text-align: left;
+    color: blue;
+}
+#g9{
+    text-align: justify;
+    color: aqua;
+} */
+
+
+/* Text-Decoration */
+/* #g10{
+    text-decoration: underline;
+
+}
+#g11{
+    text-decoration: overline;
+
+}
+#g12{
+    text-decoration: line-through;
+
+}
+#g13{
+    text-decoration: none;
+} */
+
+
+/* Text-Transform 
+   1.Uppercase
+   2.Lowercase
+   3.Captalize
+   */
+/* #g14{
+    text-transform: uppercase;
+}
+#g15{
+    text-transform: lowercase;
+}
+#g16{
+    text-transform: capitalize;
+}   */
+
+
+/* Line-height */
+/* #g17{
+    line-height: 100px;
+}
+#g18{
+    line-height: 2;
+    (It will be double of text size)
+} */
+
+
+/* Text-Shadow */
+/* #g19{
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+#g20{
+    color: rgba(116, 116, 247, 0.859);
+    text-shadow: 20px 20px 3px rgb(13, 234, 24);
+} */
+
+
+
+
+
+
+
+
+
