@@ -1,0 +1,53 @@
+#g1{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    margin: 30px;
+}
+#g2{
+    width:300px;
+    height: 300px;
+    background-color: red;
+    margin:30px;
+}
+#g3{
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    margin: 40px;
+    display: inline;
+}
+#g4{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    margin: 40px;
+}
+#g5{
+    width:200px;
+    height: 200px;
+    margin: 50px;
+    background-color: brown;
+    display: inline;
+}
+#g6{
+    width: 200px;
+    height: 200px;
+    margin: 60px;
+    background-color: blueviolet;
+    display: block;
+}
+#g7{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    background-color: yellow;
+    display: inline-block;
+}
+#g8{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    background-color: aqua;
+    display: inline-block;
+}
