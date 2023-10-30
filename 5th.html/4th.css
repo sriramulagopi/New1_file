@@ -1,0 +1,23 @@
+/* List-Properties */
+#g1{
+    list-style-type: square;
+}
+#g2{
+    list-style-position:inside;
+}
+#g3{
+
+    list-style-image: url("https://images.unsplash.com/photo-1694990232516-3a3f3ab9a333?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8");
+    list-style-position: inside;
+}
+#g4{
+    list-style-type: upper-alpha;
+}
+#g5{
+    list-style-position: inside;
+    list-style-type: decimal-leading-zero;
+}
+#g6{
+    list-style-image:url("https://images.unsplash.com/photo-1695653422967-40348437b8ec?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHx8fA%3D%3D") ;
+    list-style-position:inside ;
+}
