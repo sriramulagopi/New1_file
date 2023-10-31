@@ -53,7 +53,7 @@
 } */
 
 /* Position Properties */
-.box6{
+/* .box6{
     width: 200px;
     height: 200px;
     border: 2px solid red;
@@ -114,5 +114,71 @@
     top: 0px;
     left: 0px;   
 }
+#parent{
+    border: 5px solid red;
+    margin: 10px;
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    position: absolute;  
+}
+#child1{
+    width: 50%;
+    height: 50%;
+    background-color: green;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+#gd-child1{
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    top: 25%;
+    left: 25%;
+    position: absolute;
+}
+#great-gd-child1{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+#parent1{
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 12%;
+    left: 12%;
+} */
 
-
+/* Z-Index */
+/* .box{
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+#box1{
+    background-color: red;
+    z-index: 1;
+}
+#box2{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+}
+#box3{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+#box4{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+} */
