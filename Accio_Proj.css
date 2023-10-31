@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:wght@300;400;500;900&family=Poppins&display=swap');
+#g5{
+    display: inline-block ;
+    position: fixed;
+    top: 20px;
+    left:75px ;
+}
+#navbar{
+    position: fixed;
+    top: 0px;
+    height: 60px;
+    margin-left: 720px;
+    margin-top: 16px;
+
+}
+#navbar>div{
+    display: inline-block;
+    margin-inline: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+button{
+    width: 125px;
+    height: 39px;
+    border-radius: 6px;
+}
+#g6{
+    border: 2px solid #0D6EFD;
+    color: #0D6EFD;
+    background-color: white;
+    font-weight: 700;
+    margin-left: 10px;
+}
+#g7{
+    border: 2px solid #0D6EFD;
+    color: white;
+    background-color: #724CED;
+    font-weight: 700;
+}
+#g8{
+    background-color: #0D6EFD;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 70px;
+    color: white;
+    font-family: 'Inter', sans-serif ;
+    text-align: center;
+    vertical-align: center;
+    box-sizing: border-box;
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#g10{
+    position: fixed;
+    bottom: 7px;
+    right: 20px;
+}
