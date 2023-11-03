@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#main{
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+}
+#sidebar>img{
+    margin: 25px 0px 25px 20px ;
+}
+#sidebar{
+    background-color: black;
+    flex: 1;
+    justify-content: space-between;
+}
+#sidebar>div>div>a{
+    text-decoration: none;
+    color: white;
+}
+#option1{
+    margin-left: 30px;
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: -1.14px;
+}
+#option1>div{
+    margin-bottom: 15px;
+}
+#option1>div>a>img{
+    margin-right: 20px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+}
+#option2{
+    margin-top: 40px;
+    margin-left: 30px;
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: -1.14px;
+}
+#option2>div>a>img{
+    margin-right: 20px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+}
+#option2>div{
+    margin-bottom: 15px;
+}
+#option3{
+    margin-top: 40px;
+    margin-left: 20px;
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: -1.14px;
+}
+#option3>div{
+    margin-bottom: 10px;
+}
+#mainbar{
+    background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+    color: white;
+    flex: 5;
+}
+#playlist{
+    position: sticky;
+    background-color: #181818;
+    height: 10vh;
+    width: 100vw;
+}
+#g1{
+    color: white;
+    margin-left:35px;
+    margin-top: 25px;
+}
+#g1>img{
+    margin-right: 35px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+    left: 0px;
+}
+#mainbar>div{
+    margin-left: 20px;
+}
+#mainbar>div>h2{
+    margin-left: 20px;
+}
+.card1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    width: 350px;
+    height: 50px;
+    background-color: #303030;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+}
+.card1>div>img{
+    margin-right: 20px;
+    width: 55px;
+    height: 50px;
+}
+.card2{
+    margin-right: 115px;
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box1{
+    margin: 10px;
+    width: 210px;
+    height: 220px;
+    background-color: #181818;
+
+}
+.card2>div>img{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    display: flex;
+    width: 180px;
+    height: 150px;
+    align-items: center; 
+}
+.box1>div{
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top:10px ;
+}
+.box1>span{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+}
+#g2{
+    font-size: 12px;
+}
+.card3{
+    display: inline-block;
+    margin-left:20px ;
+    margin-top:10px ;
+    margin-bottom:25px ;
+
+}
+.card3>span{
+    box-sizing: border-box;
+    padding-top: 5px;
+    text-align: center;
+    display: inline-block;
+    margin-inline:12px;
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+}
+#mainbar>span{
+    display: flex;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    border-radius: 33px;
+    justify-content: left;
+    position: relative;
+    left: 980px;
+    top: 20px;
+}
+#mainbar>span>img{
+    box-sizing: border-box;
+    padding-right: 15px;
+    padding-top: 1px;
+}
+#mainbar>span>span{
+    position: relative;
+    bottom: 12px;
+    right: 10px;
+    font-weight: 600;
+}

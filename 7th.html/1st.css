@@ -1,0 +1,152 @@
+h1{
+    color: blue;
+}
+.box{
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: large;
+    border: 3px solid black;
+}
+/* Flex-directions
+   1.row (default)
+   2.column
+   3.row-reverse
+   4.column-reverse */
+
+#container{
+    display: flex;
+    flex-direction: row;
+}
+#container2{
+    display: flex;
+    flex-direction: column;
+}
+#container3{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#container4{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#container5{
+    display: flex;
+    flex-wrap: wrap;
+}
+#container6{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+/* Justify-Content  */
+#container7{
+    display: flex;
+    justify-content: right;
+}
+#container8{
+    display: flex;
+    justify-content: center;
+}
+#container9{
+    display: flex;
+    justify-content: left;
+}
+#container10{
+    display: flex;
+    justify-content: space-between;
+}
+#container11{
+    display: flex;
+    justify-content: space-around;
+}
+#container12{
+    display: flex;
+    justify-content: space-evenly;
+}
+.red{
+    background-color: red;
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+}
+.green{
+    background-color: green;
+    border: 2px solid black;
+    width: 200px;
+    height: 70px;
+}
+.blue{
+    background-color: blue;
+    border: 2px solid black;
+    width: 200px;
+    height: 90px;
+}
+.yellow{
+    background-color: yellow;
+    border: 2px solid black;
+    width: 200px;
+    height: 110px;
+}
+
+/*  Align-items */
+#container13{
+    display: flex;
+    align-items: center;
+}
+#container14{
+    display: flex;
+    align-items: flex-start;
+}
+#container15{
+    display:flex;
+    align-items: flex-end;
+}
+#container16{
+    display:flex;
+    align-items: stretch;
+    /* stretch works stretch the height as per highest height  */
+}
+#container17{
+    display: flex;
+}
+.aqua{
+    order: 3;
+    background-color: aqua;
+}
+.gold{
+    background-color: gold;
+    order: 1;
+}
+.grey{
+    background-color: grey;
+    order: 2;
+}
+.pink{
+    background-color: pink;
+    order: 4;
+}
+#container18{
+    display: flex;
+}
+.violet{
+    background-color: violet;
+    flex: 1;
+    height: 300px;
+}
+.black{
+    background-color: black;
+    flex: 3;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -10,6 +10,8 @@
     position: sticky;
     top: 0px;
     left: 0px;
+    width: 100%;
+    /* display: flex; */
 }
 #navbar>div{
     display: inline-block;
@@ -71,6 +73,7 @@ button{
 }
 #g10{  
     position: relative;
+    display: flex;
 }
 #hero{
     position: absolute;
@@ -83,18 +86,19 @@ button{
 }
 #box{
     position: absolute;
-    top: 90px;
-    right: 100px;
+    top: 85px;
+    right: 60px;
     display: inline-block;
     width: 450px;
     height: 490px;
-    background-color: #FBF8FE;
+    background-color:white;
     border-radius:15px ;
     text-align: center;
     font-size: 23px;
     padding: 30px;
     box-sizing: border-box;
     font-weight: 550;
+    box-shadow: 0px 0px 30px pink ;
 }
 #g11{
     font-family:Arial, Helvetica, sans-serif ;
@@ -140,7 +144,8 @@ input{
 }
 #g16{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
+    color: #0D6EFD;
 }
 #bel2{
     display: block;
@@ -224,89 +229,60 @@ img{
     font-weight: 200;
     top: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:wght@300;400;500;900&family=Poppins&display=swap');
-#g5{
-    display: inline-block ;
-    position: fixed;
-    top: 20px;
-    left:75px ;
-}
-#navbar{
-    position: fixed;
-    top: 0px;
-    height: 60px;
-    margin-left: 720px;
-    margin-top: 16px;
-
-}
-#navbar>div{
-    display: inline-block;
-    margin-inline: 8px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-}
-button{
-    width: 125px;
-    height: 39px;
-    border-radius: 6px;
-}
-#g6{
-    border: 2px solid #0D6EFD;
-    color: #0D6EFD;
-    background-color: white;
-    font-weight: 700;
-    margin-left: 10px;
-}
-#g7{
-    border: 2px solid #0D6EFD;
-    color: white;
-    background-color: #724CED;
-    font-weight: 700;
-    width:145PX ;
-}
-#g8{
-    background-color: #0D6EFD;
-    height: 40px;
-    width: 100%;
-    position: sticky;
-    top: 70px;
-    color: white;
-    font-family: 'Inter', sans-serif ;
+#o1{
+    margin-top: 15px;
+    position: absolute;
     text-align: center;
-    vertical-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 250px;
+    height: 45px;
+    background-color: #0077b5;
+    border-radius: 25px;
     box-sizing: border-box;
-    padding-top: 8px;
+    padding-top: 15px;
+    top:470px;
+    left: 85px;
+    padding-left: 35px;
     font-size: 14px;
-    font-weight: 600;
+}
+#o2{
+    margin-top: 15px;
+    position: absolute;
+    text-align: center;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 320px;
+    height: 45px;
+    background-color: white;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    top:470px;
+    left: 345px;
+    box-shadow: 0px 0px 8px black;
+}
+#o1 img{
+    position: absolute;
+    bottom: 2px;
+    right: 190px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+#o3{
+    position: absolute;
+    width:150px;
+    top: 270px;
+    left: 820px;
+}
+#g17{
+    margin-top: 100px;
 }
 
-*{
-    padding: 0px;
-    margin: 0px;
-}
-#g10{
-    position: fixed;
-    bottom: 7px;
-    right: 20px;
-}
-#links{
-    background-color: white;
-    position: sticky;
-    height: 66px;
-    border: 3px solid rgba(255, 255, 255, 0.925);
-} */
+
